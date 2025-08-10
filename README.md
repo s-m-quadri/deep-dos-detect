@@ -1,11 +1,33 @@
-# `DeepDoSDetect`: DoS Attack Detection using XGBoost on UNSW-NB15 Dataset
+<center>
+<img width="894" height="800" alt="image" src="https://github.com/user-attachments/assets/515ac016-9b70-4a92-a5a6-3034401c577b" />
+</center>
 
-## Overview
+<div align="center">
+  <h1><b><code>DeepDoSDetect</code> DoS Attack Detection using XGBoost on the UNSW-NB15 dataset with SMOTE balancing, threshold tuning, and detailed evaluation visualizations.</b></h1>
+  <p>This project implements a Denial of Service (DoS) attack detection system using the UNSW-NB15 dataset.
+The pipeline includes data preprocessing, feature encoding, scaling, handling class imbalance with SMOTE, model training with XGBoost, threshold tuning for optimal F1-score, and model evaluation with multiple metrics and visualizations. The goal is to classify each network record as either DoS or Non-DoS.</p>
 
-This project implements a Denial of Service (DoS) attack detection system using the UNSW-NB15 dataset.
-The pipeline includes data preprocessing, feature encoding, scaling, handling class imbalance with SMOTE, model training with XGBoost, threshold tuning for optimal F1-score, and model evaluation with multiple metrics and visualizations.
+  <p>
+    <a href="https://s-m-quadri.me/projects/deep-dos-detect">Homepage</a> ·
+    <a href="https://github.com/s-m-quadri/deep-dos-detect">Repository</a> ·
+    <a href="https://github.com/s-m-quadri/deep-dos-detect/discussions/new?category=q-a">Ask Question</a> ·
+    <a href="mailto:dev.smq@gmail.com">Contact</a>
+  </p>
 
-The goal is to classify each network record as either **DoS** or **Non-DoS**.
+  <a href="https://github.com/s-m-quadri/deep-dos-detect/releases">
+         <img src="https://custom-icon-badges.demolab.com/github/v/tag/s-m-quadri/deep-dos-detect?label=Version&labelColor=302d41&color=f2cdcd&logoColor=d9e0ee&logo=tag&style=for-the-badge" alt="Release Version"/>
+  </a>
+  <a href="https://www.codefactor.io/repository/github/s-m-quadri/deep-dos-detect"><img src="https://img.shields.io/codefactor/grade/github/s-m-quadri/deep-dos-detect?label=CodeFactor&labelColor=302d41&color=8bd5ca&logoColor=d9e0ee&logo=codefactor&style=for-the-badge" alt="GitHub Readme Profile Code Quality"/></a>
+  <a href="https://github.com/s-m-quadri/deep-dos-detect/issues">
+    <img src="https://custom-icon-badges.demolab.com/github/issues/s-m-quadri/deep-dos-detect?label=Issues&labelColor=302d41&color=f5a97f&logoColor=d9e0ee&logo=issue&style=for-the-badge" alt="Issues"/>
+  </a>
+  <a href="https://github.com/s-m-quadri/deep-dos-detect/pulls">
+    <img src="https://custom-icon-badges.demolab.com/github/issues-pr/s-m-quadri/deep-dos-detect?label=PRs&labelColor=302d41&color=ddb6f2&logoColor=d9e0ee&logo=git-pull-request&style=for-the-badge" alt="Pull Requests"/>
+  </a>
+  <a href="https://github.com/s-m-quadri/deep-dos-detect/graphs/contributors">
+    <img src="https://custom-icon-badges.demolab.com/github/contributors/s-m-quadri/deep-dos-detect?label=Contributors&labelColor=302d41&color=c9cbff&logoColor=d9e0ee&logo=people&style=for-the-badge" alt="Contributors"/>
+  </a>
+</div>
 
 ## Dataset
 
@@ -87,34 +109,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn xgboost joblib imbalanc
 
 ### Confusion Matrix
 
-Placeholder for heatmap output:
-`[Image: Confusion Matrix plot]`
-
-### ROC Curve
-
-Placeholder for line plot output:
-`[Image: ROC Curve with AUC score]`
-
-### Precision-Recall Curve
-
-Placeholder for PR plot output:
-`[Image: Precision-Recall curve]`
-
-### Feature Importance
-
-Placeholder for bar plot output:
-`[Image: Top 15 features with highest importance]`
-
-### Additional Visualizations
-
-* Class distribution before and after SMOTE
-  `[Image: Bar chart of class counts before/after balancing]`
-* Distribution of predicted probabilities for DoS vs Non-DoS
-  `[Image: Histogram of prediction probabilities]`
-* Precision & Recall vs Threshold
-  `[Image: Line plot showing precision and recall trends]`
-* Feature correlation heatmap
-  `[Image: Heatmap of numeric feature correlations]`
+<img width="527" height="414" alt="image" src="https://github.com/user-attachments/assets/6ba82322-6d12-4617-ae24-8af8df32eb90" />
 
 ## Model Saving and Loading
 
