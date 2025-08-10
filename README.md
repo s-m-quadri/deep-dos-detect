@@ -25,6 +25,8 @@ The pipeline includes data preprocessing, feature encoding, scaling, handling cl
   </a>
 </div>
 
+<br /><br /><br />
+
 <center><img width="894" height="800" alt="image" src="https://github.com/user-attachments/assets/515ac016-9b70-4a92-a5a6-3034401c577b" /></center>
 
 ## Dataset
