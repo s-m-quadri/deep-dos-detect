@@ -1,7 +1,3 @@
-<center>
-<img width="894" height="800" alt="image" src="https://github.com/user-attachments/assets/515ac016-9b70-4a92-a5a6-3034401c577b" />
-</center>
-
 <div align="center">
   <h1><b><code>DeepDoSDetect</code> DoS Attack Detection using XGBoost on the UNSW-NB15 dataset with SMOTE balancing, threshold tuning, and detailed evaluation visualizations.</b></h1>
   <p>This project implements a Denial of Service (DoS) attack detection system using the UNSW-NB15 dataset.
@@ -28,6 +24,8 @@ The pipeline includes data preprocessing, feature encoding, scaling, handling cl
     <img src="https://custom-icon-badges.demolab.com/github/contributors/s-m-quadri/deep-dos-detect?label=Contributors&labelColor=302d41&color=c9cbff&logoColor=d9e0ee&logo=people&style=for-the-badge" alt="Contributors"/>
   </a>
 </div>
+
+<center><img width="894" height="800" alt="image" src="https://github.com/user-attachments/assets/515ac016-9b70-4a92-a5a6-3034401c577b" /></center>
 
 ## Dataset
 
